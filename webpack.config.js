@@ -11,10 +11,16 @@ module.exports = {
                 use: ["babel-loader", "react-hot-loader/webpack"]
             },
             {
-                test: /\.css$/,
+                test: /\.s?css$/,
                 use: [
                     { loader: "style-loader" },
-                    { loader: "css-loader", options: { modules: true } }
+                    { loader: "css-loader", options: { modules: "global" } },
+                    {
+                        loader: "sass-loader",
+                        options: {
+                            implementation: require("sass")
+                        }
+                    }
                 ]
             }
         ]
