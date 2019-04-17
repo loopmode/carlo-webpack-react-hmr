@@ -4,6 +4,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "build": "node build",
+    "start": "node develop"
+  },
   "dependencies": {
     "@hot-loader/react-dom": "^16.8.6",
     "react": "^16.8.6",

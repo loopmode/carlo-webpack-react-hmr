@@ -21,10 +21,10 @@ npm install
 
 ### Development
 
-Launch the index file with node:
+Start the development environment:
 
 ```bash
-node .
+npm start
 ```
 
 ## HMR and react-hot-loader
