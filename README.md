@@ -9,7 +9,7 @@ Based on [carlo](https://www.npmjs.com/package/carlo), [carlo-webpack](https://w
 ## Prerequisites
 
 -   [Chrome](https://www.google.com/chrome/) or [Chromium](https://www.chromium.org/getting-involved/download-chromium) must be installed
--   [Node.js](https://nodejs.org/en/download/) must be installed
+-   [Node.js](https://nodejs.org/en/download/) v10 or newer must be installed
 
 ## Installation
 
