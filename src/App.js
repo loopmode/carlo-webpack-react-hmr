@@ -4,20 +4,14 @@ import React, { Component } from "react";
 import FunctionalCounter from "./FunctionalCounter";
 import ClassCounter from "./ClassCounter";
 
+import css from "./App.css";
 class App extends Component {
     render() {
-        const boxStyle = {
-            margin: 5,
-            padding: 5,
-            border: "1px solid black",
-            textAlign: "center"
-        };
-
         return (
-            <div style={boxStyle}>
+            <div className={css.App}>
                 <h1>Carlo-React-App with HMR</h1>
-                <ClassCounter style={boxStyle} />
-                <FunctionalCounter style={boxStyle} />
+                <ClassCounter className={css.Box} />
+                <FunctionalCounter className={css.Box} />
                 <p>
                     Change the contents of any file in <code>src/</code> to see
                     HMR in action without disrupting component state.

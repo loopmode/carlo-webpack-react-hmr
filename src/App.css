@@ -1,0 +1,12 @@
+:local(.App) {
+    text-align: center;
+}
+
+:local(.Box) {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+:local(.Box) + :local(.Box) {
+    margin-top: 10px;
+}

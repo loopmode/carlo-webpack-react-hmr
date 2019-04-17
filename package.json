@@ -23,6 +23,8 @@
     "babel-loader": "^8.0.5",
     "carlo": "^0.9.45",
     "carlo-extensions": "^1.0.0",
-    "carlo-webpack": "^0.2.0"
+    "carlo-webpack": "^0.2.0",
+    "css-loader": "^2.1.1",
+    "style-loader": "^0.23.1"
   }
 }
