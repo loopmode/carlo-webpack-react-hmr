@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "carlo-webpack-react-hmr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@hot-loader/react-dom": "^16.8.6",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-hot-loader": "^4.8.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "@npm-chrome-extensions/react-devtools": "^3.4.2-dev.1",
+    "babel-loader": "^8.0.5",
+    "carlo": "^0.9.45",
+    "carlo-extensions": "^1.0.0",
+    "carlo-webpack": "^0.2.0"
+  }
+}
